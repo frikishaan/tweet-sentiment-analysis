@@ -1,4 +1,4 @@
-const socket = io("https://salty-badlands-25926.herokuapp.com/");
+const socket = io("<url-to-your-server>");
 
 // Tweet received
 socket.on("tweet", res => {
