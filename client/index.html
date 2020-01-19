@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Day 16 - Tweet analysis</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Sentiment Analysis on Tweets</h1>
+    <p class="info">
+      Tweet with the Hastag <span class="hashtag">#javascript</span> or
+      <span class="hashtag">#100daysofcode</span> to see your tweet.
+      <br />
+      <span class="pos">Posititve</span> |
+      <span class="neutral">Neutral</span> |
+      <span class="neg">Negative</span>
+    </p>
+
+    <!-- tweets container -->
+    <div class="container">
+      <!-- <div class="tweet pos">
+        <img
+          src="https://pbs.twimg.com/profile_images/1196637429236559874/a9dVDZOq_normal.jpg"
+        />
+        <span class="name">Josh Has</span>
+        <p class="text">
+          The latest The Web Development Daily! https://t.co/mzTtUYlusY Thanks
+          to @ankurinnovator #javascript #programming
+        </p>
+      </div> -->
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+      integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

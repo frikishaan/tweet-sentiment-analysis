@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Alata&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p.info {
+  text-align: center;
+}
+
+p.info .hashtag {
+  color: #0097e6;
+}
+
+p.info .pos {
+  border-bottom: 3px solid #7bed9f;
+}
+
+p.info .neutral {
+  border-bottom: 3px solid #ffdd59;
+}
+
+p.info .neg {
+  border-bottom: 3px solid #ff3f34;
+}
+
+.container {
+  max-width: 750px;
+  margin: 1rem auto;
+  padding: 12px;
+}
+
+.container .tweet {
+  border-radius: 5px;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  -webkit-box-shadow: -5px 7px 25px -26px rgba(0, 0, 0, 0.75);
+          box-shadow: -5px 7px 25px -26px rgba(0, 0, 0, 0.75);
+  -webkit-animation: fadeIn 0.7s forwards;
+          animation: fadeIn 0.7s forwards;
+}
+
+.container .tweet.pos {
+  border-right: 12px solid #7bed9f;
+}
+
+.container .tweet.neg {
+  border-right: 12px solid #ff3f34;
+}
+
+.container .tweet.neutral {
+  border-right: 12px solid #ffdd59;
+}
+
+.container .tweet img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
+.container .tweet .name {
+  margin-left: 14px;
+  color: #0097e6;
+}
+
+.container .tweet .name .user_name {
+  color: #747474;
+  font-size: 13px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=main.css.map */

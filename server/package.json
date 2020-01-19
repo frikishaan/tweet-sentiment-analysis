@@ -1,0 +1,17 @@
+{
+  "name": "realtime-tweet-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "Sentiment Analysis of Tweets in realtime",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Ishaan Sheikh",
+  "license": "ISC",
+  "dependencies": {
+    "node-tweet-stream": "^2.0.3",
+    "socket.io": "^2.3.0",
+    "vader-sentiment": "^1.1.3"
+  }
+}

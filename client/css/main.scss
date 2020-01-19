@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Alata&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Alata", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+p.info {
+  text-align: center;
+  .hashtag {
+    color: #0097e6;
+  }
+
+  .pos {
+    border-bottom: 3px solid #7bed9f;
+  }
+  .neutral {
+    border-bottom: 3px solid #ffdd59;
+  }
+  .neg {
+    border-bottom: 3px solid #ff3f34;
+  }
+}
+.container {
+  max-width: 750px;
+  margin: 1rem auto;
+  padding: 12px;
+
+  .tweet {
+    border-radius: 5px;
+    padding: 12px 18px;
+    margin-bottom: 12px;
+    box-shadow: -5px 7px 25px -26px rgba(0, 0, 0, 0.75);
+    animation: fadeIn 0.7s forwards;
+
+    &.pos {
+      border-right: 12px solid #7bed9f;
+    }
+
+    &.neg {
+      border-right: 12px solid #ff3f34;
+    }
+    &.neutral {
+      border-right: 12px solid #ffdd59;
+    }
+    img {
+      object-fit: cover;
+      border-radius: 50%;
+      border: none;
+      height: 50px;
+      width: 50px;
+    }
+
+    .name {
+      margin-left: 14px;
+      color: #0097e6;
+
+      .user_name {
+        color: #747474;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
