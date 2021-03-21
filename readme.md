@@ -24,4 +24,4 @@ The app is a part of my #30Days30Projects challenge. The app analyse the polarit
 - [Vader](https://github.com/SpiderStrategies/node-tweet-stream) Sentiment analysis package
 
 
-Made with ❤ by [Ishaan Sheikh](http://frikishaan.xyz)
+Made with ❤ by [Ishaan Sheikh](http://frikishaan.com)
