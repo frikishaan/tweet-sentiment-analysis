@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "node-tweet-stream": "^2.0.3",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "vader-sentiment": "^1.1.3"
   }
 }
